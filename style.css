@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
